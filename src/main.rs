@@ -34,12 +34,38 @@ fn get_num_sites() -> Option<i32> {
     None
 }
 
+/**
+ * Gets output file name if specified in the command line arguments
+ */
+fn get_output_file() -> Option<String> {
+    let args: Vec<String> = env::args().collect();
+    let mut iter = args.into_iter();
+    while let Some(string) = iter.next() {
+        if string == "-o" {
+            let str_opt = match iter.next() {
+                Some(arg) => Some(arg),
+                None => None
+            };
+
+            if str_opt != None {
+                return str_opt;
+            }
+        }
+    }
+    None
+}
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Generate specified number of random points and store them into the sites vector
     let num_sites = match get_num_sites() {
                             Some(num) => num,
                             None => 10
                         };
+    let output_file = match get_output_file() {
+                            Some(str) => str,
+                            None => "output.svg".to_string()
+                        };                
+    
     let mut sites: Vec<Point> = vec![];
     for _ in 0..num_sites{
         sites.push(gen_rand_point(BoundingBox::new_centered_square(10.)));
@@ -54,7 +80,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .unwrap();
 
     // Initialize drawing area
-    let root = SVGBackend::new("0.svg", (500, 500)).into_drawing_area();
+    let root = SVGBackend::new(&output_file, (500, 500)).into_drawing_area();
     root.fill(&WHITE).unwrap();
 
     // For each cell in the voronoi diagram, fit it to the final image, and then color in the corresponding space
