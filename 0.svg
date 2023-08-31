@@ -1,0 +1,28 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="500" height="500" opacity="1" fill="#FFFFFF" stroke="none"/>
+<polygon opacity="1" fill="#C0DF64" points="222,285 218,229 157,215 104,249 96,302 110,318 173,324 "/>
+<polygon opacity="1" fill="#0AC5FC" points="96,302 104,249 57,213 0,225 0,315 "/>
+<polygon opacity="1" fill="#F3697C" points="193,69 217,0 0,0 0,11 136,102 "/>
+<polygon opacity="1" fill="#022FA8" points="262,320 222,285 173,324 186,395 193,398 241,384 "/>
+<polygon opacity="1" fill="#282DAC" points="313,410 332,426 392,417 412,384 352,308 320,325 "/>
+<polygon opacity="1" fill="#DBF84E" points="141,412 99,390 66,406 79,500 138,500 "/>
+<polygon opacity="1" fill="#6B2CC5" points="66,406 0,389 0,500 79,500 "/>
+<polygon opacity="1" fill="#4A3E7D" points="313,410 274,417 257,453 273,500 323,500 332,426 "/>
+<polygon opacity="1" fill="#8F7F9B" points="193,398 186,395 141,412 138,500 177,500 209,447 "/>
+<polygon opacity="1" fill="#8BDFB6" points="75,150 0,114 0,225 57,213 "/>
+<polygon opacity="1" fill="#8997F5" points="209,447 177,500 273,500 257,453 "/>
+<polygon opacity="1" fill="#BB8735" points="359,130 500,145 500,0 335,0 "/>
+<polygon opacity="1" fill="#9A40AD" points="392,417 417,500 500,500 500,371 412,384 "/>
+<polygon opacity="1" fill="#5780CC" points="241,384 193,398 209,447 257,453 274,417 "/>
+<polygon opacity="1" fill="#6FF5EB" points="412,384 500,371 500,251 368,269 352,308 "/>
+<polygon opacity="1" fill="#80FBB7" points="136,102 0,11 0,114 75,150 121,133 "/>
+<polygon opacity="1" fill="#D7C1EF" points="173,324 110,318 99,390 141,412 186,395 "/>
+<polygon opacity="1" fill="#A26B84" points="262,320 320,325 352,308 368,269 318,180 264,183 218,229 222,285 "/>
+<polygon opacity="1" fill="#1C1049" points="218,229 264,183 193,69 136,102 121,133 157,215 "/>
+<polygon opacity="1" fill="#E7086E" points="157,215 121,133 75,150 57,213 104,249 "/>
+<polygon opacity="1" fill="#FB9BB3" points="99,390 110,318 96,302 0,315 0,389 66,406 "/>
+<polygon opacity="1" fill="#B053CD" points="368,269 500,251 500,145 359,130 318,180 "/>
+<polygon opacity="1" fill="#115568" points="332,426 323,500 417,500 392,417 "/>
+<polygon opacity="1" fill="#F7B295" points="264,183 318,180 359,130 335,0 217,0 193,69 "/>
+<polygon opacity="1" fill="#EADE51" points="262,320 241,384 274,417 313,410 320,325 "/>
+</svg>
